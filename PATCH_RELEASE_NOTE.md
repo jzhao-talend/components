@@ -4,11 +4,11 @@ module: https://talend.poolparty.biz/coretaxonomy/42
 product: https://talend.poolparty.biz/coretaxonomy/183
 ---
 
-# TPS-4449
+# TPS-4774
 
 | Info             | Value |
 | ---------------- | ---------------- |
-| Patch Name       | Patch\_20210430_TPS-4449\_v1-7.3.1 |
+| Patch Name       | Patch\_20210430_TPS-4774\_v1-7.3.1 |
 | Release Date     | 2021-04-30 |
 | Target Version   | 20200219\_1130-7.3.1 |
 | Product affected | Talend Data Preparation |
@@ -23,7 +23,7 @@ This is a self-contained patch.
 
 This patch contains the following fixes:
 
-- TDI-45852 HDFS dataset headers are not displayed though Set header is enabled
+- TPS-4774 [7.3.1]HDFS dataset headers are not displayed though Set header is enabled(TDI-45852)
 
 ## Prerequisites
 
@@ -47,4 +47,4 @@ Backup the Affected files list below. Uninstall the patch by restore the backup 
 
 The following files are installed by this patch:
 
-- {Talend\_Dataprep\_path}/services\tcomp\.m2\org\talend\components\simplefileio-runtime\0.27.4\simplefileio-runtime-0.27.4.jar
+- {Talend\_Dataprep\_path}/services/tcomp/.m2/org/talend/components/simplefileio-runtime/0.27.4/simplefileio-runtime-0.27.4.jar
