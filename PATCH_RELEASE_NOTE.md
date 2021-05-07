@@ -29,15 +29,19 @@ This patch contains the following fixes:
 
 Consider the following requirements for your system:
 
-- Talend Data Preparation 7.3.1 must be installed.
+    a. Stop Data Prep and tcomp server.
+    b. Backup following folder: <dataprep_server_dir>/services/tcomp
 
+## Installation Steps
 
-## Installation
+    a. Copy ZIP files from patch to <dataprep_server_dir>/services
+    b. Unzip new ZIP file under <dataprep_server_dir>/services
+    c. Copy the unzipped folder "service" and its content to <dataprep_server_dir>/services and overwrite the existing files.
 
-    1) Shut down Talend Dataprep Service/Component Web Service if it is opened.
-    2) Extract the zip.
-    3) Merge the folder "service" and its content to {Dataprep}/service and overwrite the existing files.
-    4) Start the Dataprep Service/Component Web Service.
+## Post-installation Steps
+
+    a. Restart tcomp server
+    b. Restart Data Prep server
 
 ## Uninstallation
 
