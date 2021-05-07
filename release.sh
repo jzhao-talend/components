@@ -65,9 +65,9 @@ ARTIFACT_VERSION_REGEXP="[0-9]+\.[0-9]+\.[0-9]+(-SNAPSHOT)?"
 CI_SERVER="https://ci-common.datapwn.com/view/Components/"
 
 # Component repository URL
-REPOSITORY=https://github.com/Talend/components/
+# REPOSITORY=https://github.com/Talend/components/
 # Fork Component repository and change original URL with forked to test this script
-# REPOSITORY=https://github.com/gonchar-ivan/components/
+REPOSITORY=https://github.com/jzhao-talend/components/
 
 # Component reposiroty directory on user's local machine
 # Changes directory to a directory where script is located in case script is launched from different directory
