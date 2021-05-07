@@ -8,8 +8,8 @@ product: https://talend.poolparty.biz/coretaxonomy/183
 
 | Info             | Value |
 | ---------------- | ---------------- |
-| Patch Name       | Patch\_20210430_TPS-4774\_v1-7.3.1 |
-| Release Date     | 2021-04-30 |
+| Patch Name       | Patch\_20210507_TPS-4774\_v1-7.3.1 |
+| Release Date     | 2021-05-07 |
 | Target Version   | 20200219\_1130-7.3.1 |
 | Product affected | Talend Data Preparation |
 
